@@ -1,10 +1,25 @@
-let umbrellaPoints = 0;
-let starPoints = 0;
+// .xUmbrella img {
+//     display: block;
+//     height: 70px;
+//     width: 70px;
+// }
 
+// .oStar img {
+//     display: flex;
+//     height: 70px;
+//     width: 70px
+// }
 
-
-
-
+let winningConditions = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 4, 8],
+    [6, 4, 2],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+]
 
 
 
